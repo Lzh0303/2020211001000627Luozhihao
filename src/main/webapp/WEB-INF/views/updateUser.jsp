@@ -8,7 +8,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>
 <h1>User Update</h1>
-<%--need form--%>
 <%
     User user=(User)request.getSession().getAttribute("user");
 %>
