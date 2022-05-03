@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>_2020211001000627LuoZhihao</artifactId>
+    <artifactId>_2020211001000627LuoZhiHao</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>2020211001000627LuoZhihao</name>
+    <name>2020211001000627LuoZhiHao</name>
     <packaging>war</packaging>
 
     <properties>
@@ -23,6 +23,26 @@
             <artifactId>javax.servlet-api</artifactId>
             <version>4.0.1</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.containers</groupId>
+            <artifactId>jersey-container-servlet</artifactId>
+            <version>2.34</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.media</groupId>
+            <artifactId>jersey-media-json-jackson</artifactId>
+            <version>2.34</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jersey.inject</groupId>
+            <artifactId>jersey-cdi2-se</artifactId>
+            <version>2.34</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jboss.weld.se</groupId>
+            <artifactId>weld-se-core</artifactId>
+            <version>3.1.8.Final</version>
         </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>

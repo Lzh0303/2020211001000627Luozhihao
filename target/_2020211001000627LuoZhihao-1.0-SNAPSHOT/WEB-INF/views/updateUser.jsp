@@ -1,10 +1,4 @@
-<%@ page import="com.luozhihao.model.User" %><%--
-  Created by IntelliJ IDEA.
-  User: liu'teng
-  Date: 2022/4/20
-  Time: 23:17
-  To change this template use File | Settings | File Templates.
---%>
+<%@ page import="com.ChenZirong.model.User" %><
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@include file="header.jsp"%>
 <h1>User Update</h1>

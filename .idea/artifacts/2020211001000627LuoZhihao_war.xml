@@ -9,7 +9,7 @@
         <unpackNestedArchives>false</unpackNestedArchives>
       </options>
     </properties>
-    <root id="archive" name="_2020211001000627LuoZhihao-1.0-SNAPSHOT.war">
+    <root id="archive" name="_2020211001000627LuoZhiHao-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="2020211001000627LuoZhihao:war exploded" />
     </root>
   </artifact>

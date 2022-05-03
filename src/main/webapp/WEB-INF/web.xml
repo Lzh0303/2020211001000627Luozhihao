@@ -3,7 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-
+    <!-- tomcat read this file to run servlet -->
+    <!-- you need to tell tomcat we have created a new servlet -->
     <context-param>
         <param-name>driver</param-name>
         <param-value>com.mysql.cj.jdbc.Driver</param-value>
@@ -20,6 +21,63 @@
         <param-name>password</param-name>
         <param-value>123123</param-value>
     </context-param>
+
+
+<!--    <servlet>-->
+<!--        <servlet-name>giveanyname</servlet-name>-->
+<!--        <servlet-class>com.dabing.week2.HelloWorldServlet</servlet-class>&lt;!&ndash; u need to add package also&ndash;&gt;-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>giveanyname</servlet-name>-->
+<!--        <url-pattern>/hello</url-pattern>&lt;!&ndash;must start with /&ndash;&gt;-->
+<!--    </servlet-mapping>-->
+<!--    &lt;!&ndash; we need to tell tomcat we have created a new servlet&ndash;&gt;-->
+<!--    <servlet>-->
+<!--        <servlet-name>LifeCycleServlet</servlet-name>-->
+<!--        <servlet-class>com.dabing.week3.LifeCycleServlet</servlet-class>-->
+<!--    </servlet>-->
+
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>LifeCycleServlet</servlet-name>-->
+<!--        <url-pattern>/life</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    &lt;!&ndash; we need to tell tomcat &ndash;&gt;-->
+<!--    <servlet>-->
+<!--        <servlet-name>RegisterServlet</servlet-name>-->
+<!--        <servlet-class>com.dabing.week3.RegisterServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet>-->
+<!--        <servlet-name>JDBCDemoServlet</servlet-name>-->
+<!--        <servlet-class>com.liuteng.JDBCServletContextListener</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>driver</param-name>-->
+<!--            <param-value>com.microsoft.sqlserver.jdbc.SQLServerDriver</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>url</param-name>-->
+<!--            <param-value>jdbc:sqlserver://localhost:1433;database=userdb;encrypt=false</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>username</param-name>-->
+<!--            <param-value>sa</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>password</param-name>-->
+<!--            <param-value>admin123456789</param-value>-->
+<!--        </init-param>-->
+
+<!--        <load-on-startup>1</load-on-startup>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>RegisterServlet</servlet-name>-->
+<!--        <url-pattern>/register</url-pattern>-->
+<!--    </servlet-mapping>-->
+<!--    &lt;!&ndash; <servlet-mapping>-->
+<!--         <servlet-name>JDBCDemoServlet</servlet-name>-->
+<!--         <url-pattern>/jdbc</url-pattern>-->
+<!--     </servlet-mapping>&ndash;&gt;-->
+
 
     <welcome-file-list>
         <welcome-file>home</welcome-file>
