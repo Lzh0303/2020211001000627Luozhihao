@@ -16,8 +16,10 @@ public class VisitCoServlet extends HttpServlet {
         n++;
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter out = resp.getWriter();
-        out.println("<div style='text-align:center;'><h2>This Servlet Clicks Times</h2></div>");
-        out.println("<div style='text-align:center;'><h4>"+n+"</h4></div>");
+//        out.println("<div style='text-align:center;'><h2>This Servlet Clicks Times</h2></div>");
+//        out.println("<div style='text-align:center;'><h4>"+n+"</h4></div>");
+        out.println("<div style='text-align:center;'<h2>Since loading, this servlet has been accessed" + n+ "Times </h2></div>");
+
     }
 }
 
