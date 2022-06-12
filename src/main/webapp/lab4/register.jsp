@@ -38,7 +38,7 @@
     </sql:update>
 </c:if>
 
-<%--select--%>
+
 <sql:query var="selectusers" dataSource="${myDs}">
     select * from user
 </sql:query>
